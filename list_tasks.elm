@@ -11,6 +11,12 @@ power2 =
 new_list = List.map power2 list2
 
 {-- 
+
+Открыть
+http://elm-lang.org/examples/hello-html
+И в правом окне заменить текст на содержимое этого файла
+
+Полезные функции
 List.filter
 List.maximum
 List.minimum
@@ -25,7 +31,6 @@ http://package.elm-lang.org/packages/elm-lang/core/4.0.0/
 
 Документация по функциям для списков
 http://package.elm-lang.org/packages/elm-lang/core/4.0.0/List
-
 
 Задания
 
