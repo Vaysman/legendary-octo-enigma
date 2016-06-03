@@ -1,0 +1,18 @@
+import Html exposing (text)
+
+l : List Float
+l = [1.0..10.0]
+
+x : Float -> Float
+x =
+  \n -> n + 1
+
+even : Int -> String
+even x = 
+  if x % 2 == 0 then "True" else "False"
+
+ll : List Float
+ll = List.map x l
+
+main =
+  text (toString(ll))
